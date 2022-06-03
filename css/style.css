@@ -4,27 +4,71 @@
        vaiables
 ──────────────────*/
 :root{
-	--main-background: #ffffff;
+	--main-background: #78a5d9;
 	--main-fonts-color: #ffffff;
-	--main-decor-color:#ffffff;
-  --main-header-background:#ffffff;
+	--main-decor-color: #6874a6;
+  --main-header-background: #dbf8ff;
 	--main-font-family: 'Poppins', sans-serif;
+  --main-hr-color: #000;
+  --main-a-color: #333;
+  --main-nav-color: #485175;
+  
 }
 
 /*────────────────── 
     body and main
 ──────────────────*/
+body{
+  background: var(--main-background);
+}
+
+main{
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--main-background);
+}
 
 
 /*────────────────── 
        header
 ──────────────────*/
 
-
 /*────────────────── 
        nav
 ──────────────────*/
+.navbar-show{
+	opacity: 0;
+}
 
+.navbar navbar-default{
+
+	list-style:none;
+	position: relative;
+	display: inline-flex;
+}
+
+li{
+	margin: 2px;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: var(--main-fonts-color);
+	font-family: var(--main-font-family);
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.active{
+	background: var(--main-decor-color);
+}
+
+.navbarli:hover {
+  background: var(--main-decor-color);
+}
+
+.navbara {
+  background: var(--main-decor-color);
+}
 
 /*──────────────────
        home

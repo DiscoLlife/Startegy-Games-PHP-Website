@@ -25,17 +25,6 @@
 
 </head>
 
-<body>
+<body style="background: var(--main-background);">
         
     <div class="container">
-    
-      <!-- logo / small image goes here -->
-      <div class="box logo">
-          <a href="index.php"><img src="images/logo.png" width="261" height="150" alt="Dice" /></a>
-      </div> <!-- / logo -->
-
-      <!--────────────────HEADER───────────────-->
-      <header>
-          <h1 class="jumbotron">Strategy Games</h1>  
-
-      </header> <!-- / banner -->
